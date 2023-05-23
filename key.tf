@@ -1,0 +1,4 @@
+resource "aws_key_pair" "deployer" {
+  key_name   = "jenkins-server"
+  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCQw2hGT8Zs7ApVgmzsXAjG08UZHo/eR1CynE7m89qJgpLHmMurGSp1F65n3t4L6qh/9iqJOk6hlLiVEkQNDSul99POjV8KnfAQa5Rjf7e56B9ys1TMAGYCFEOXCoY3oOF1VsmL03MgGC203M/6PD4U+8jvo5TlzD1A487S3binsx8TH6TAtitDJiuAZfXEWByf+mOLIz2Olz9oEOtEt0QNGXi0eNPI4M3vDnwYDiYdFrIYmWsxqhivCvNOXkt7On7vN95DpewYsKgmUZ+JXzG/EGD9fG8BynzSBIkYw68lXuZvpLGZ1/lImgjmI9mkBOVkkgF/Ji2gHOEdr5WLo25H email@example.com"
+}
